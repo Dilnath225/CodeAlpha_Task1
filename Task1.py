@@ -13,7 +13,7 @@ import random
 
 def hangman():
 
-    word_lst = [apple, banana, cherry, date, chair]
+    word_lst = ['apple', 'banana', 'cherry', 'date', 'chair']
     word = random.choice(word_lst)
 
     guessed_lttrs = []
